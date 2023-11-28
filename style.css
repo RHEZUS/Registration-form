@@ -1,0 +1,76 @@
+body{
+    font-family: 'Inter', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+a {
+    text-decoration: none;
+    font-weight: 600;
+}
+
+input[type="text"], input[type="email"], input[type="password"], input[type="tel"], select.form-select{
+    width: 100%;
+    height: 39px;
+    border: 1px solid #f69ac7;
+    box-shadow: none;
+    font-size: 17px;
+    font-weight: 800;
+}
+input[type="checkbox"]{
+    border: 1px solid #f69ac7;
+}
+
+input[type="text"]:focus, 
+input[type="email"]:focus, 
+input[type="password"]:focus, 
+input[type="tel"]:focus,
+input[type="checkbox"]:focus, 
+select.form-select:focus {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  border: 1px solid #f69ac7;
+}
+
+label{
+    font-size: 14px;
+    font-weight: 800;
+}
+
+
+
+h1{
+    font-size: 23px;
+    font-weight: 600;
+}
+
+.brand-text p{
+    font-size: 5vh;
+    font-weight: 900;
+}
+
+.brand-image{
+    width: 40vw;
+    position: absolute;
+    left: 4%;
+    top: 300px;
+}
+
+.brand-image img{
+    width: 40vw;
+}
+
+.password{
+    position: relative;
+}
+.password i{
+    position: absolute;
+    top: 10px;
+    right: 15px;
+}
+
+@media (max-width: 768px) {
+    .brand-image{
+        width: 400px;
+        left: 55%;
+        top: 0px;
+    }
+}
