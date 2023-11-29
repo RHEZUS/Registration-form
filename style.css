@@ -17,6 +17,7 @@ input[type="text"], input[type="email"], input[type="password"], input[type="tel
 }
 input[type="checkbox"]{
     border: 1px solid #f69ac7;
+    
 }
 
 input[type="text"]:focus, 
